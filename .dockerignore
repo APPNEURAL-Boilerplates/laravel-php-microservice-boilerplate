@@ -1,0 +1,14 @@
+.git
+.github
+vendor
+node_modules
+.env
+.env.*
+!.env.example
+storage/logs/*.log
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/framework/testing/*
+.phpunit.result.cache
+.DS_Store

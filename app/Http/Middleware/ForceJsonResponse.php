@@ -1,0 +1,22 @@
+<?php
+
+declare(strict_types=1);
+
+namespace App\Http\Middleware;
+
+use Closure;
+use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\Response;
+
+final class ForceJsonResponse
+{
+    /**
+     * Force API-style JSON negotiation for predictable microservice responses.
+     */
+    public function handle(Request $request, Closure $next): Response
+    {
+        $request->headers->set('Accept', 'application/json');
+
+        return $next($request);
+    }
+}
