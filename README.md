@@ -13,7 +13,7 @@ A production-minded Laravel REST microservice boilerplate with versioned API rou
 ## Project structure
 
 ```txt
-laravel-php-microservice/
+laravel-php-microservice-boilerplate/
 ├─ app/
 │  ├─ Clients/
 │  ├─ Events/
