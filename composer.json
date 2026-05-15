@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "example/laravel-microservice-boilerplate",
+    "name": "example/laravel-php-microservice",
     "type": "project",
     "description": "Production-minded Laravel REST microservice boilerplate.",
     "keywords": [

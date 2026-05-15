@@ -1,4 +1,4 @@
-# Laravel Microservice Boilerplate
+# Laravel PHP Microservice
 
 A production-minded Laravel REST microservice boilerplate with versioned API routes, consistent JSON responses, health/readiness endpoints, request IDs, validation, centralized error handling, Docker, and tests.
 
@@ -13,7 +13,7 @@ A production-minded Laravel REST microservice boilerplate with versioned API rou
 ## Project structure
 
 ```txt
-laravel-microservice-boilerplate/
+laravel-php-microservice/
 ├─ app/
 │  ├─ Clients/
 │  ├─ Events/
